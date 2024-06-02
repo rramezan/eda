@@ -4,7 +4,7 @@ count_classes <- function(data_frame, class_col) {
   }
 
   data_frame |>
-    group_by({{ class_col }}) |>
-    summarize(count = n()) |>
-    rename("class" = {{ class_col }})
+    dplyr::group_by({{ class_col }}) |>
+    dplyr::summarize(count = dplyr::n()) |>
+    dplyr::rename("class" = {{ class_col }})
 }
