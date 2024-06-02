@@ -1,5 +1,5 @@
 Package: EDA
-Title: Package for Data Wrangling
+Title: Package for doing Data Wrangling
 Version: 0.0.0.9000
 Authors@R: 
     person("Reza", "Ramezan", , "rramezan@uwaterloo.ca", role = c("aut", "cre"),
